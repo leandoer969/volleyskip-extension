@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+releases/*.crx
+releases/*.pem
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Vite cache
+.vite/
