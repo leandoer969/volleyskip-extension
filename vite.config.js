@@ -1,22 +1,23 @@
 // vite.config.js
 import { defineConfig } from "vite";
+import path from "path";
 
 export default defineConfig({
   build: {
     lib: {
-      entry: 'src/content.js',
-      name: 'VolleySkip',
-      formats: ['iife'],
-      fileName: () => 'content.js'
+      entry: path.resolve(__dirname, "src/content.js"),
+      name: "VolleySkipPlus",
+      formats: ["iife"],
+      fileName: () => "content.js"
     },
-    outDir: 'dist',
+    outDir: "dist",
     emptyOutDir: true,
     rollupOptions: {
       output: {
-        intro: '(() => {',
-        outro: '})();'
+        intro: "(() => {",
+        outro: "})();"
       }
     }
   },
-  publicDir: false 
+  publicDir: false
 });

@@ -12,3 +12,5 @@ Thumbs.db
 
 # Vite cache
 .vite/
+
+scripts/
