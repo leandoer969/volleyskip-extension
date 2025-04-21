@@ -79,7 +79,7 @@ npm run build
 •	Toolbar popup with quick actions
 
 
-🧠 Author
+## 🧠 Author
 
 Built by leandoer969
 MIT License
